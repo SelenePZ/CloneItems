@@ -1,0 +1,14 @@
+version=1
+id=3121164621
+title=Clone Items
+description=This mod simply allows admins to clone existing items.
+description=
+description=It should work with most items, but it does not clone containers as of now.
+description=
+description=[h1]Contact[/h1]
+description=
+description=[b]Website[/b]: https://mods.twelveiterations.com/
+description=[b]Discord[/b]: https://discord.gg/VAfZ2Nau6j
+description=[b]Patreon[/b]: https://www.patreon.com/BlayTheNinth
+tags=Build 41;Multiplayer
+visibility=public
