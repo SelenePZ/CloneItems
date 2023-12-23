@@ -37,6 +37,7 @@ function CloneItems.dupeItem(item, playerIndex, times)
     for i=1,times do
         local clone = inventory:AddItem(item:getFullType())
         clone:setName(item:getName())
+        clone:setCustomName(item:isCustomName())
         if clone:isCustomWeight() then
             clone:setActualWeight(item:getActualWeight())
             clone:setCustomWeight(true)
@@ -83,6 +84,12 @@ function CloneItems.dupeItem(item, playerIndex, times)
         end
         if instanceof(item, "DrainableComboItem") then
             clone:setUsedDelta(item:getUsedDelta())
+        end
+        if item:getCategory() == "Literature" and item:canBeWrite() then
+            for i = 0, item:getCustomPages():size() - 1 do
+                clone:addPage(i + 1, item:seePage(i + 1))
+            end
+            clone:setLockedBy(item:getLockedBy())
         end
 
         clone:copyModData(item:getModData())
