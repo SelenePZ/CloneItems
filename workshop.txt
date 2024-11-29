@@ -2,13 +2,22 @@ version=1
 id=3121164621
 title=Clone Items
 description=This mod simply allows admins to clone existing items.
-description=
+description=
+
 description=It should work with most items, but it does not clone containers as of now.
-description=
-description=[h1]Contact[/h1]
-description=
-description=[b]Website[/b]: https://mods.twelveiterations.com/
-description=[b]Discord[/b]: https://discord.gg/VAfZ2Nau6j
+description=
+
+description=[h1]Contact[/h1]
+
+description=
+
+description=[b]Our Roleplay Server[/b]: https://my.selene.world/scpn/
+
+description=[b]Discord[/b]: https://discord.gg/S7maQVRRa9
+
 description=[b]Patreon[/b]: https://www.patreon.com/BlayTheNinth
+description=
+description=[b]Source Code[/b]: https://github.com/SelenePZ/CloneItems
+description=[b]Permissions[/b]: https://mods.twelveiterations.com/permissions/
 tags=Build 41;Multiplayer
 visibility=public
